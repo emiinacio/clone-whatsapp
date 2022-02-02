@@ -35,14 +35,10 @@
   <!-- Add your site or application content here -->
 
   <div class="main">
-
     <section class="history">
-
       <header class="history__header">
         <div class="history__profile">
           <img class="history__pic avatar" src="https://placeimg.com/640/480/people" alt="Nuno Pereira" />
-          <i class="fas fa-check"></i>
-          <i class="fas fa-check-double"></i>
         </div>
         <div class="history__controls">
           <!-- icons -->
@@ -50,13 +46,13 @@
       </header>
 
       <form class="history__search">
+        <i class="fas fa-search"></i>
         <input js-history-input class="history__input" type="text" placeholder="Search or start new chat" name="history_chat" />
-        <button class="history__submit" type="submit"><i class="fas fa-search"></i></button>
       </form>
 
       <div class="history__talks">
 
-        <!-- <div class="history-chat">
+        <div class="history-chat">
           <div class="history-chat__profile">
             <img class="history-chat__pic avatar" src="https://placeimg.com/640/480/people" alt="Group X" />
             <div class="history-chat__info">
@@ -67,7 +63,7 @@
               21:34
             </div>
           </div>
-        </div> -->
+        </div> 
         
       </div>
 
@@ -91,8 +87,10 @@
 
       <div class="chat__footer">
         <form class="chat__form" action="">
+          <button class="chat__emoji" type="submit"><i class="far fa-grin fa-lg"></i></button>
+          <button class="chat__paperclip" type="submit"><i class="fas fa-paperclip fa-lg"></i></button>
           <input class="chat__input" type="text" name="chat_message" placeholder="Type a message" />
-          <button class="chat__submit" type="submit"><i class="fas fa-paper-plane"></i></button>
+          <button class="chat__submit" type="submit"><i class="fas fa-paper-plane fa-lg"></i></button>
         </form>
       </div>
 

@@ -32,16 +32,14 @@
   margin: 0;
 }
 .history-chat__message {
-  color: var(--surface);
   margin: 0;
   font-size: 0.85em;
 }
 .history-chat__date {
-  position: absolute;
   right: 5px;
   top: 2px;
   font-size: 0.75em;
-  color: var(--primary);
+  color: var(--font);
 }
 
 @media only screen and (min-width: 35em) {

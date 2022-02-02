@@ -2,6 +2,7 @@
 .history:not(html) {
   background-color: var(--secondary);
   color: #fff;
+  border-right: 1px solid var(--surface);
 }
 
 .history__header {
@@ -13,19 +14,28 @@
   display: flex;
 }
 
-.history__pic {
-  
-}
-
 .history__search {
   display: flex;
-  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px solid var(--surface);
+}
+
+.history__search i {
+  position: absolute;
+  padding: 7px 10px;
+  color: #8696A0;
 }
 
 .history__input {
   flex: 1;
   border: none;
-  padding: 0.5em 1em;
+  background-color: var(--surface);
+  padding: 7px 0px 7px 30px;
+  border-radius: 7px;
+}
+
+.history__input::placeholder {
+  font-size: 15px;
 }
 
 .history__submit {

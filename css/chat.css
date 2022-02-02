@@ -17,17 +17,18 @@
   margin-right: 1em;
 }
 
-.chat__info {
-
+.chat__name {
+  margin: 0;
 }
 
 .chat__name {
-  margin: 0;
+  color: var(--white);
 }
 
 .chat__participants {
   margin: 0;
   font-size: 0.8em;
+  color: var(--font);
 }
 
 .chat__container {
@@ -49,25 +50,33 @@
 }
 
 .chat__footer {
-  background: var(--secondary);
+  background: var(--surface);
+  padding: 15px 5px;
 }
 
 .chat__form {
   display: flex;
-  position: relative;
 }
 
 .chat__input {
   flex: 1;
-  background: var(--surface);
-  padding: 1em;
+  background: var(--gray);
   border: none;
   outline: none;
+  border-radius: 7px;
 }
 
+.chat__input::placeholder {
+  padding-left: 20px;
+}
+
+.chat__paperclip, 
+.chat__emoji,
 .chat__submit {
-  background: var(--primary);
   border: none;
-  color: var(--white);
+  color: var(--font);
+  background: none;
   padding: 1em;
+  size: 1000px;
+  cursor: pointer;
 }
